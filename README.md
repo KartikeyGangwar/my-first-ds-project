@@ -1,4 +1,4 @@
-# My First Data Science Project
+# My First Project
 
 This project demonstrates a fundamental probability concept: the **Normal Distribution**.
 
