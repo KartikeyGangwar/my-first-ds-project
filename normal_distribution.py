@@ -1,5 +1,4 @@
-# This script calculates and plots a Normal Distribution (Gaussian Curve)
-# This is a fundamental concept in probability and statistics.
+# This script calculates and plots a Normal Distribution
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,6 +9,7 @@ sigma = 1 # standard deviation
 
 # Generate 1000 data points between -3 and 3
 x = np.linspace(-3, 3, 1000)
+
 # Calculate the corresponding y-values for the Normal Distribution
 y = (1 / (sigma * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mu) / sigma)**2)
 
